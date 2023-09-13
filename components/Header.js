@@ -1,44 +1,42 @@
 /* eslint-disable @next/next/no-html-link-for-pages */
+import logo from '../public/images/ppLogo.png'
+import Image from 'next/image'
 
 export default function Header() {
   return (
     <>
       <div
         className="
-        bg-blue
+        bg-orange-400
         grotesk
         absolute
         top-0
         h-7
         w-full 
         text-center
-        text-sm
+        md:text-sm
         leading-6
         text-white
+        text-xs
+        pt-[3px]
       "
       >
-        Scelerisque egestas et euismod.
+        Learn more about Preschool Pulse.
         <a href="/" className="pl-3 underline">
-          Take me there
+          Check out our blog post.
         </a>
       </div>
       <div className="grotesk mt-6 mb-16 flex items-center justify-between py-4 px-4 sm:mx-0 sm:mb-20 sm:px-0 md:px-6">
-        <div className="mt-4 inline-block pb-4 pl-8">
+        <div className="mt-4 inline-block pb-4 md:pl-8">
           <a href="/" className="align-middle text-3xl font-bold text-black">
-            NINE4
+            <Image src={logo} width="300px" height="80px"/>
           </a>
           <div className="hidden pl-14 align-middle xl:inline-block">
-            <a href="/" className="pr-12 text-xl text-black">
-              Cras.
+            <a href="#features" className="pr-12 text-xl text-black">
+              Features
             </a>
             <a href="/" className="pr-12 text-xl text-black">
-              Cras.
-            </a>
-            <a href="/" className="pr-12 text-xl text-black">
-              Fringilla.
-            </a>
-            <a href="/" className="text-xl text-black">
-              Enim.
+              Blog
             </a>
           </div>
         </div>
@@ -46,7 +44,7 @@ export default function Header() {
           <div className="hidden py-1 text-right xl:inline-block">
             <a
               className="mt-2 inline-flex items-center px-12 py-3 text-lg font-semibold tracking-tighter text-black"
-              href="/"
+              href="https://app.preschoolpulse.com/"
             >
               Log in
             </a>
