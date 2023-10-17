@@ -22,7 +22,7 @@ export default function Header() {
       "
       >
         Learn more about Preschool Pulse.
-        <a href="/" className="pl-3 underline">
+        <a href="https://preschool-pulse.ghost.io/is-your-preschool-thriving-or-just-surviving-a-guide-to-unlocking-your-schools-potential/" className="pl-3 underline">
           Check out our blog post.
         </a>
       </div>
@@ -35,7 +35,7 @@ export default function Header() {
             <a href="#features" className="pr-12 text-xl text-black">
               Features
             </a>
-            <a href="/" className="pr-12 text-xl text-black">
+            <a href="https://preschool-pulse.ghost.io/" className="pr-12 text-xl text-black">
               Blog
             </a>
           </div>
