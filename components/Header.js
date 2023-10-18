@@ -50,7 +50,7 @@ export default function Header() {
             </a>
             <a
               className="bg-blue mt-2 inline-flex items-center px-8 py-3 text-lg font-semibold tracking-tighter text-white"
-              href="/"
+              href="https://forms.gle/yjVNwJddNtHVwQmc9"
             >
               Request a demo
             </a>
